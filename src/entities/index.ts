@@ -1,4 +1,5 @@
 export * from './AbstractCurrency'
+export * from './ConstantProductPool'
 export * from './Currency'
 export * from './CurrencyAmount'
 export * from './Fraction'
