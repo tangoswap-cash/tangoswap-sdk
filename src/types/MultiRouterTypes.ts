@@ -59,7 +59,7 @@ export class Pool {
 
 type PoolInfoNoType = Omit<PoolInfoWithDefaults, 'type'>
 
-export class ConstantProductPool extends Pool {
+export class RConstantProductPool extends Pool {
   constructor(info: PoolInfoNoType) {
     super({
       type: PoolType.ConstantProduct,
