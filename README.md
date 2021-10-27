@@ -1,8 +1,8 @@
-# MISTswap SDK
+# TANGOswap SDK
 
 In-depth documentation on this SDK is available at [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).
 
-This modifies uniswap-sdk's UniswapV2Factory address. The new address for mistswap is `0x000`.
+This modifies uniswap-sdk's UniswapV2Factory address. The new address for tangoswap is `0x000`.
 
 ## Running tests
 
@@ -11,13 +11,13 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/mistswapdex/mistswap-sdk.git
+git clone https://github.com/tangoswap-cash/tangoswap-sdk.git
 ```
 
-Move into the mistswap-sdk working directory
+Move into the tangoswap-sdk working directory
 
 ```sh
-cd mistswap-sdk/
+cd tangoswap-sdk/
 ```
 
 Install dependencies
