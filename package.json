@@ -61,7 +61,7 @@
     "@ethersproject/signing-key": "^5.4.0",
     "@ethersproject/solidity": "^5.4.0",
     "@ethersproject/transactions": "^5.4.0",
-    "@tangoswapcash/core": "^0.0.4",
+    "@tangoswapcash/core": "^0.0.5",
     "@sushiswap/prettier-config": "^0.1.0",
     "@types/big.js": "^6.1.0",
     "babel-plugin-transform-jsbi-to-bigint": "^1.4.0",

@@ -1525,10 +1525,10 @@
   resolved "https://registry.yarnpkg.com/@sushiswap/prettier-config/-/prettier-config-0.1.0.tgz#4fdddf1ba2590025f78adf6cb54ed016344958a4"
   integrity sha512-QD+xdR0VZbmqwSa1xMMkCh5KGCVQQLqN3VHS7VDh5rB4FtZKbUE8lNgKvtKwp38aG0zIlwZcbA+ASFBnWmbkJQ==
 
-"@tangoswapcash/core@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@tangoswapcash/core/-/core-0.0.4.tgz#988290071f1a0c5b37a16a15a062292886ee41b1"
-  integrity sha512-aNtmquU0WCzGq24WVWXni93e8DLhR0R2SBVLCpBsED+9C27iXUYdPvQ19sd+/JKsphUsTFawWutZt5YVTGE4Zg==
+"@tangoswapcash/core@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@tangoswapcash/core/-/core-0.0.5.tgz#0dc2c9fdd5d14b5615c178e063204b05753e7825"
+  integrity sha512-dqxkQi/Lwl4TWiSTZjmN3Jhnoi6CHFp7LFivYviRYIqdrahiKZiJf0xNzSww/JWp5ybbOYfrgY5AiY+iIEQdMw==
   dependencies:
     eip-712 "^0.4.3"
 
