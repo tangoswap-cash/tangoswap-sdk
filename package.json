@@ -1,7 +1,7 @@
 {
   "name": "@tangoswapcash/sdk",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🛠 An SDK for building applications on top of TANGOswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -61,7 +61,7 @@
     "@ethersproject/signing-key": "^5.4.0",
     "@ethersproject/solidity": "^5.4.0",
     "@ethersproject/transactions": "^5.4.0",
-    "@mistswapdex/core": "^0.0.3",
+    "@tangoswapcash/core": "^0.0.4",
     "@sushiswap/prettier-config": "^0.1.0",
     "@types/big.js": "^6.1.0",
     "babel-plugin-transform-jsbi-to-bigint": "^1.4.0",
