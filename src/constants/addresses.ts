@@ -67,3 +67,7 @@ export const MULTICALL2_ADDRESS: AddressMap = {
 }
 
 export const BORING_HELPER_ADDRESS: AddressMap = {}
+
+export const AGGREGATOR_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH]: '0xEd2E356C00A555DDdd7663BDA822C6acB34Ce614',
+}
