@@ -1,7 +1,7 @@
 {
   "name": "@tangoswapcash/sdk",
   "license": "MIT",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "🛠 An SDK for building applications on top of TANGOswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

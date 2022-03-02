@@ -55,8 +55,7 @@ export const WNATIVE_ADDRESS: AddressMap = {
 }
 
 export const MASTERCHEF_V2_ADDRESS: AddressMap = {
-  [ChainId.SMARTBCH]: '',
-  [ChainId.SMARTBCH_AMBER]: '',
+  [ChainId.SMARTBCH]: '0xFdcd933689837c8173cd86bC3168918629fAe8d7',
 }
 
 export const ENS_REGISTRAR_ADDRESS: AddressMap = {}
