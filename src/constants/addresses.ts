@@ -2,7 +2,9 @@ import { AddressMap } from '../types'
 import { ChainId } from '../enums'
 
 export const FLEXUSD_ADDRESS: AddressMap = {
-  [ChainId.SMARTBCH]: '0x7b2B3C5308ab5b2a1d9a94d20D35CCDf61e05b72'
+  [ChainId.SMARTBCH]: '0x7b2B3C5308ab5b2a1d9a94d20D35CCDf61e05b72',
+  // [ChainId.SMARTBCH_AMBER]: '0xFed990d491D8c563ce3d636D7536d7F9a3E2De12'
+  [ChainId.SMARTBCH_AMBER]: '0xD0E6466293c6CdA8CaA96A57683909383c01411D' // mock
 }
 
 export const FACTORY_ADDRESS: AddressMap = {
@@ -40,8 +42,12 @@ export const MAKER_ADDRESS: AddressMap = {
   [ChainId.SMARTBCH_AMBER]: '0x084d40C7B7a7cf35cd47a4351bcB869e4187f690'
 }
 
-export const BENTOBOX_ADDRESS: AddressMap = {}
-export const KASHI_ADDRESS: AddressMap = {}
+export const BENTOBOX_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH_AMBER]: '0x09125777d06524FE085a8478A947BC2bDD7e9ce2'
+}
+export const KASHI_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH_AMBER]: '0x72125F882e0Eee6821D9Cf24c160310962D3009A'
+}
 export const STOP_LIMIT_ORDER_ADDRESS: AddressMap = {}
 
 export const WBCH_ADDRESS: AddressMap = {
@@ -58,15 +64,36 @@ export const MASTERCHEF_V2_ADDRESS: AddressMap = {
   [ChainId.SMARTBCH]: '0xFdcd933689837c8173cd86bC3168918629fAe8d7',
 }
 
-export const ENS_REGISTRAR_ADDRESS: AddressMap = {}
+export const ENS_REGISTRAR_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH]: '0xCfb86556760d03942EBf1ba88a9870e67D77b627',
+  [ChainId.SMARTBCH_AMBER]: '0x32f1FBE59D771bdB7FB247FE97A635f50659202b',
+}
 
 export const MULTICALL2_ADDRESS: AddressMap = {
   [ChainId.SMARTBCH]: '0x3718e9C405D0bC779870355C34fb5624196A1cAA',
   [ChainId.SMARTBCH_AMBER]: '0xFb02AE15114268470108eC79de69B05c2629Caf7',
 }
 
-export const BORING_HELPER_ADDRESS: AddressMap = {}
+export const BORING_HELPER_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH_AMBER]: '0xA8eEFbCED70b77C2a717f4C6f9dA8E6Ea0Aa44eD'
+}
 
 export const AGGREGATOR_ADDRESS: AddressMap = {
   [ChainId.SMARTBCH]: '0xEd2E356C00A555DDdd7663BDA822C6acB34Ce614',
+}
+
+export const SABLIER_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH]: '0x5eB85d9D7dc2F2C70F4C13b4Ba9Ed21d65141037',
+  [ChainId.SMARTBCH_AMBER]: '0xeE85373F26E5380Fbd71FB7295BD68fdd0818887',
+}
+
+export const CHAINLINK_ORACLE_ADDRESS: AddressMap = {
+}
+
+export const TWAP_0_ORACLE_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH_AMBER]: "0xc6Ada1047F56ed13952d5ec8424a02ae4a41626b"
+}
+
+export const TWAP_1_ORACLE_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH_AMBER]: "0x994BD855653ACCA620f3494ffA3D3696ccdCD5E4"
 }
