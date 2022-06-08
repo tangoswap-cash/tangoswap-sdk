@@ -5,7 +5,8 @@ import { Token } from '../entities/Token'
 import { TokenMap } from '../types/TokenMap'
 
 export const FLEXUSD: TokenMap = {
-  [ChainId.SMARTBCH]: new Token(ChainId.SMARTBCH, FLEXUSD_ADDRESS[ChainId.SMARTBCH], 18, 'flexUSD', 'flexUSD')
+  [ChainId.SMARTBCH]: new Token(ChainId.SMARTBCH, FLEXUSD_ADDRESS[ChainId.SMARTBCH], 18, 'flexUSD', 'flexUSD'),
+  [ChainId.SMARTBCH_AMBER]: new Token(ChainId.SMARTBCH_AMBER, FLEXUSD_ADDRESS[ChainId.SMARTBCH_AMBER], 18, 'flexUSD', 'flexUSD')
 }
 
 export const WBCH: TokenMap = {
