@@ -36,11 +36,37 @@ export abstract class LimitOrder {
    */
   private constructor() {}
 
-  /**
-   * Produces the on-chain method name to call and the hex encoded parameters to pass as arguments for a given trade.
-   * @param trade to produce call parameters for
-   * @param options options for the call parameters
-   */
+
+// function getSigner(
+//     uint256 coinsToMaker,
+//     uint256 coinsToTaker,
+//     uint256 dueTime80_v8_version8,
+//     bytes32 r,
+//     bytes32 s
+// ) public view returns (address) {
+//     bytes32 eip712Hash = getEIP712Hash(coinsToMaker, coinsToTaker, dueTime80_v8_version8 >> 16);
+//     uint8 v = uint8(dueTime80_v8_version8 >> 8);
+//     return ecrecover(eip712Hash, v, r, s);
+  // }
+
+  public static getSignerCallParameters(
+    coinsToMaker: string,
+    coinsToTaker: string,
+    dueTime80: string,
+    r: string,
+    s: string,
+  ): LimitOrderParameters {
+    const value: string = ZERO_HEX;
+    const methodName: string = 'getSigner'
+    const args: (string | string[])[] = [coinsToMaker, coinsToTaker, dueTime80, r, s];
+
+    return {
+      methodName,
+      args,
+      value
+    }
+  }
+
   public static directExchangeCallParameters(
     inputAmount: CurrencyAmount<Currency>,
     outputAmount: CurrencyAmount<Currency>,
