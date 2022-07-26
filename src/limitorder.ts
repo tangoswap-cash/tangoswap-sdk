@@ -36,6 +36,20 @@ export abstract class LimitOrder {
    */
   private constructor() {}
 
+  public static isReplayCallParameters(
+    makerAddress: string,
+    dueTime: string,
+  ): LimitOrderParameters {
+    const value: string = ZERO_HEX;
+    const methodName: string = 'getSigner'
+    const args: (string | string[])[] = [makerAddress, dueTime];
+
+    return {
+      methodName,
+      args,
+      value
+    }
+  }
 
 // function getSigner(
 //     uint256 coinsToMaker,
