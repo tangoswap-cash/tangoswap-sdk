@@ -95,14 +95,6 @@ export abstract class LimitOrder {
     const methodName: string = 'directExchange'
     const args: (string | string[])[] = [coinsToMaker, coinsToTaker, dueTime80_v8_version8, r, s];
 
-    //   function directExchange(
-    //     uint256 coinsToMaker,
-    //     uint256 coinsToTaker,
-    //     uint256 dueTime80_v8_version8,
-    //     bytes32 r,
-    //     bytes32 s
-    // ) external payable {
-
     return {
       methodName,
       args,
