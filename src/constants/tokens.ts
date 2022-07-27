@@ -1,4 +1,4 @@
-import { FLEXUSD_ADDRESS, WBCH_ADDRESS } from './addresses'
+import { FLEXUSD_ADDRESS, SEP206_ADDRESS, WBCH_ADDRESS } from './addresses'
 
 import { ChainId } from '../enums'
 import { Token } from '../entities/Token'
@@ -17,4 +17,9 @@ export const WBCH: TokenMap = {
 export const WNATIVE: TokenMap = {
   [ChainId.SMARTBCH]: WBCH[ChainId.SMARTBCH],
   [ChainId.SMARTBCH_AMBER]: WBCH[ChainId.SMARTBCH_AMBER]
+}
+
+export const SEP206: TokenMap = {
+  [ChainId.SMARTBCH]: new Token(ChainId.SMARTBCH, SEP206_ADDRESS[ChainId.SMARTBCH], 18, 'BCH', 'Bitcoin Cash SEP206'),
+  [ChainId.SMARTBCH_AMBER]: new Token(ChainId.SMARTBCH_AMBER, SEP206_ADDRESS[ChainId.SMARTBCH_AMBER], 18, 'BCH', 'Bitcoin Cash SEP206')
 }
