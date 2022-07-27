@@ -82,8 +82,8 @@ export const AGGREGATOR_ADDRESS: AddressMap = {
   [ChainId.SMARTBCH]: '0xEd2E356C00A555DDdd7663BDA822C6acB34Ce614',
 }
 
-export const ORDERS_CASH_ADDRESS: AddressMap = {
-  [ChainId.SMARTBCH]: '0x5eBE6bFcA42C8440c8DC6C688E449E0B26e8E243',
+export const ORDERS_CASH_V1_ADDRESS: AddressMap = {
+  [ChainId.SMARTBCH]: '0xcc9195c34ef5CC65F5A377037a50F86c066F0a32',
 }
 
 export const SEP206_ADDRESS: AddressMap = {
